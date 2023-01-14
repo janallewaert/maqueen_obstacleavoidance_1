@@ -16,6 +16,6 @@ basic.forever(function () {
             basic.pause(1000)
         }
     } else {
-        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 101)
+        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 101)
     }
 })
